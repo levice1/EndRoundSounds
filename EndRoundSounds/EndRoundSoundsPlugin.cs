@@ -11,7 +11,7 @@ public class EndRoundSoundsPlugin : BasePlugin, IPluginConfig<EndRoundSoundsConf
     public override string ModuleName => "End Round Sounds Plugin";
     public override string ModuleVersion => "1.0.1";
     public override string ModuleAuthor => "GianniKoch";
-    public override string ModuleDescription => "A plugin that plays configurable sounds at the end of each round.(Modified)";
+    public override string ModuleDescription => "A plugin that plays configurable sounds at the end of each round.";
 
     public required EndRoundSoundsConfig Config { get; set; }
 
